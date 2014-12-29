@@ -1,0 +1,15 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="y-control">
+    <script>
+        Polymer({
+            getName: function(){
+                return this.$.el.name;
+            },
+
+            getVal: function(){
+                return this.$.el.value;
+            }
+        });
+    </script>
+</polymer-element>
