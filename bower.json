@@ -1,0 +1,24 @@
+{
+  "name": "y-control",
+  "version": "0.0.1",
+  "authors": [
+    "Anton Grischenko <f0rmat1k@yandex-team.ru>"
+  ],
+  "description": "Base block for any others controls, e.g. input, checkbox, select and etc.",
+  "main": "components/y-control/y-control.html",
+  "keywords": [
+    "y-components",
+    "y-control"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  }
+}
